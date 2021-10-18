@@ -1,0 +1,85 @@
+.containerHome {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+
+  section.home {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 2rem 7rem 7rem;
+    width: 100%;
+
+    h4 {
+      width: 100%;
+      color: #a2a2a2;
+      padding-bottom: 1.5rem;
+    }
+
+    div.cardProducts {
+      width: 100%;
+      background: #fefefe;
+      border-radius: 5px;
+      padding: 0;
+
+      section.products {
+        width: auto;
+        padding: 1.5rem;
+        display: flex;
+        cursor: pointer;
+        padding-top: 2.5rem;
+
+        img {
+          width: 160px;
+          height: 160px;
+          padding-right: 1.5rem;
+        }
+
+        div.productDetails {
+          display: flex;
+          width: 65%;
+          height: 100%;
+          flex-wrap: wrap;
+
+          div.priceDetails {
+            padding-bottom: 1rem;
+            display: flex;
+            padding-top: 1rem;
+            width: 100%;
+
+            span.price {
+              font-weight: 500;
+              padding-right: 1rem;
+              font-size: 24px;
+            }
+
+            div.freeShipping {
+              border-radius: 50%;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              border: 1px solid #1fd366;
+              background: #1fd366;
+              width: 25px;
+              color: #535353;
+            }
+          }
+
+          span.description {
+            width: 100%;
+            align-items: flex-start;
+            font-size: 20px;
+          }
+        }
+
+        span.local {
+          align-items: initial;
+          display: flex;
+          width: 10%;
+          padding-top: 3rem;
+        }
+      }
+    }
+  }
+}

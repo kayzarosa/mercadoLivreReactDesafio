@@ -1,0 +1,53 @@
+.containerSearch {
+  width: 100%;
+  height: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: #fbc90a;
+
+  img {
+    width: 80px;
+    padding-right: 3.5rem;
+  }
+
+  div {
+    background: #ffffff;
+    border-radius: 3px;
+    width: 60%;
+    height: 50%;
+    padding-left: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    input {
+      width: 95%;
+      border: 0;
+      height: 3rem;
+      background: transparent;
+      
+      font-size: 20px;
+
+      &:focus {
+        border: 0;
+      }
+    }
+
+    button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 5%;
+      height: 100%;
+      background: #ededf0;
+      border: 0;
+      cursor: pointer;
+
+      svg {
+        padding-left: -1rem;
+      }
+    }
+  }
+}

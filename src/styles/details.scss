@@ -1,0 +1,116 @@
+.containerDetails {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+
+  section.details {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 2rem 7rem 7rem;
+    width: 100%;
+
+    h4 {
+      width: 100%;
+      color: #a2a2a2;
+      padding-bottom: 1.5rem;
+    }
+
+    div.cardDetails {
+      width: 100%;
+      background: #fefefe;
+      border-radius: 5px;
+      padding: 0;
+
+      section.infoDetails {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        width: 100%;
+
+        div.detailsImg {
+          width: 60%;
+
+          img {
+            width: 40rem;
+            margin-left: 3rem;
+            cursor: zoom-in;
+          }
+        }
+
+        section.amountDetails {
+          padding: 0;
+          display: flex;
+          flex-wrap: wrap;
+          width: 30%;
+
+          span.soldAmountDetails {
+            font-size: 19px;
+            color: #565656;
+            width: 100%;
+            height: auto;
+            padding-top: 2rem;
+          }
+
+          span.titleDetails {
+            padding-top: 1rem;
+            width: 90%;
+            font-size: 30px;
+            color: #303030;
+          }
+
+          span.price {
+            display: flex;
+            padding-top: 1.5rem;
+            width: 100%;
+            font-size: 40px;
+            color: #323232;
+            align-items: flex-start;
+
+            span.cents {
+              margin-top: 0.3rem;
+              margin-left: 0.3rem;
+              font-size: 25px;
+            }
+          }
+
+          button.buttonPurchase {
+            margin-top: 4rem;
+            width: 90%;
+            height: 3rem;
+            border-radius: 4px;
+            font-size: 22px;
+            color: #ffffff;
+            background: #3483fa;
+            border-color: #3483fa;
+            cursor: pointer;
+          }
+        }
+
+        section.descriptionProduct {
+          display: flex;
+          flex-wrap: wrap;
+          align-items: flex-start;
+          padding: 2rem 15rem 2rem 2rem;
+          width: 100%;
+
+          span.title {
+            width: 100%;
+            margin-top: 2rem;
+            font-size: 30px;
+            color: #2f2f2f;
+          }
+
+          span.text {
+            width: 100%;
+            margin-top: 2rem;
+            font-size: 22px;
+            line-height: 28px;
+            color: #acacac;
+          }
+        }
+      }
+    }
+  }
+}
